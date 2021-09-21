@@ -7,6 +7,20 @@ const swiper = new Swiper(".swiper-container", {
   keyboard: {
     enabled: true,
   },
+  breakpoints: {
+    200: {
+      slidesPerView: 1,
+      spaceBetween: 40,
+    },
+    450: {
+      slidesPerView: 2,
+      spaceBetween: 40,
+    },
+    700: {
+      slidesPerView: 3,
+      spaceBetween: 40,
+    },
+  },
   autoplay: {
     delay: 1500,
     disableOnInteraction: true,

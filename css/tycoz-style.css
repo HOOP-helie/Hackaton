@@ -197,7 +197,13 @@ section:nth-child(2n).section8 {
 
 /* Slider */
 /* ========================== */
+.slider-container {
+  position: relative;
+}
+
 .swiper-container {
+  margin: auto;
+  overflow: hidden;
   margin-top: 2rem;
   width: 90%;
   min-height: 13rem;
@@ -252,9 +258,13 @@ section:nth-child(2n).section8 {
   background-image: url("../img/ty-coz/slider/fraises-guariguette.jpg");
 }
 
-.swiper-pagination {
-  margin-top: 1rem;
+.swiper-pagination,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
   left: 50%;
+  bottom: -2rem;
   transform: translateX(-50%);
 }
 

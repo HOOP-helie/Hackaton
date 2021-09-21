@@ -1040,12 +1040,14 @@ header p {
 .cards-prod a h2 {
   color: var(--orange);
   font-family: "RaleB", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  margin-bottom: 0;
 }
 
 .cards-prod a p {
   color: var(--black);
-  font-size: 30px;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 /* ************** Section cards ******** */
@@ -1054,10 +1056,9 @@ header p {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
   flex-direction: row;
-  padding: 25px;
 }
 
 .section-cards .cards div {
@@ -1075,6 +1076,7 @@ header p {
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   margin: 40px;
+  padding-bottom: 1rem;
 }
 
 .section-cards .cards div a {
@@ -1082,19 +1084,20 @@ header p {
 }
 
 .section-cards .cards img {
-  height: 200px;
+  height: 180px;
   width: 200px;
-  clip-path: circle(50% at 50% 50%);
+  border-radius: 50%;
   margin-top: 20px;
 }
 
-.section-cards .cards h5, .section-cards .cards p {
+.section-cards .cards h5,
+.section-cards .cards p {
   padding: 5px 40px;
   color: white;
 }
 
 .section-cards p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
@@ -1472,6 +1475,8 @@ header p {
   width: 85%;
   max-width: 900px;
   height: 320px;
+  margin: auto;
+  overflow: hidden;
   margin-bottom: 1rem;
 }
 
