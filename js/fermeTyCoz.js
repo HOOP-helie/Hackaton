@@ -1,3 +1,4 @@
+
 const swiperFerme = new Swiper(".swiper-container", {
   // Optional parameters
   direction: "horizontal",
@@ -20,12 +21,8 @@ const swiperFerme = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
 });
+
 
 // Reveal titles
 const all_sections = document.querySelectorAll(".section-reveal");
